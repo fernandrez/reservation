@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32150D12223208A0005A23EE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 32150D11223208A0005A23EE /* logo.png */; };
+		32150D2722320E12005A23EE /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1422320E12005A23EE /* Roboto-Medium.ttf */; };
+		32150D2822320E12005A23EE /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1522320E12005A23EE /* Roboto-Light.ttf */; };
+		32150D2922320E12005A23EE /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1622320E12005A23EE /* RobotoCondensed-Bold.ttf */; };
+		32150D2A22320E12005A23EE /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1722320E12005A23EE /* RobotoCondensed-Light.ttf */; };
+		32150D2B22320E12005A23EE /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1822320E12005A23EE /* Roboto-Regular.ttf */; };
+		32150D2C22320E12005A23EE /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1922320E12005A23EE /* Roboto-MediumItalic.ttf */; };
+		32150D2D22320E12005A23EE /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1A22320E12005A23EE /* RobotoCondensed-Italic.ttf */; };
+		32150D2E22320E12005A23EE /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1B22320E12005A23EE /* RobotoCondensed-BoldItalic.ttf */; };
+		32150D2F22320E12005A23EE /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1C22320E12005A23EE /* Apache License.txt */; };
+		32150D3022320E12005A23EE /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1D22320E12005A23EE /* RobotoCondensed-LightItalic.ttf */; };
+		32150D3122320E12005A23EE /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1E22320E12005A23EE /* Roboto-ThinItalic.ttf */; };
+		32150D3222320E12005A23EE /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D1F22320E12005A23EE /* RobotoCondensed-Regular.ttf */; };
+		32150D3322320E12005A23EE /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D2022320E12005A23EE /* Roboto-BoldItalic.ttf */; };
+		32150D3422320E12005A23EE /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D2122320E12005A23EE /* Roboto-LightItalic.ttf */; };
+		32150D3522320E12005A23EE /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D2222320E12005A23EE /* Roboto-Italic.ttf */; };
+		32150D3622320E12005A23EE /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D2322320E12005A23EE /* Roboto-BlackItalic.ttf */; };
+		32150D3722320E12005A23EE /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D2422320E12005A23EE /* Roboto-Bold.ttf */; };
+		32150D3822320E12005A23EE /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D2522320E12005A23EE /* Roboto-Thin.ttf */; };
+		32150D3922320E12005A23EE /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32150D2622320E12005A23EE /* Roboto-Black.ttf */; };
+		32150D3C22321B48005A23EE /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32150D3B22321B48005A23EE /* RestaurantsViewController.swift */; };
+		324B66CC222F1BC400063B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B66CB222F1BC400063B19 /* AppDelegate.swift */; };
+		324B66CE222F1BC400063B19 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B66CD222F1BC400063B19 /* RootViewController.swift */; };
+		324B66D0222F1BC400063B19 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B66CF222F1BC400063B19 /* HomeViewController.swift */; };
+		324B66D7222F1BC700063B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324B66D6222F1BC700063B19 /* Assets.xcassets */; };
+		324B66DA222F1BC700063B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324B66D8222F1BC700063B19 /* LaunchScreen.storyboard */; };
+		32EAF1AD223574400017E440 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EAF1AC223574400017E440 /* ModelController.swift */; };
+		32EAF1B122357F860017E440 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EAF1B022357F850017E440 /* TestViewController.swift */; };
+		32EAF1FF22358CB10017E440 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EAF1FE22358CB00017E440 /* icon.png */; };
+		32EAF20222359CC00017E440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EAF20022359CC00017E440 /* Main.storyboard */; };
+		32EAF2062235AAE60017E440 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EAF2052235AAE60017E440 /* BookViewController.swift */; };
+		DD99B15A127727D187107E09 /* Pods_Guapos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D461D76733655CC3B6838 /* Pods_Guapos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32150D11223208A0005A23EE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		32150D1422320E12005A23EE /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		32150D1522320E12005A23EE /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		32150D1622320E12005A23EE /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		32150D1722320E12005A23EE /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		32150D1822320E12005A23EE /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		32150D1922320E12005A23EE /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		32150D1A22320E12005A23EE /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		32150D1B22320E12005A23EE /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		32150D1C22320E12005A23EE /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		32150D1D22320E12005A23EE /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		32150D1E22320E12005A23EE /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		32150D1F22320E12005A23EE /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		32150D2022320E12005A23EE /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		32150D2122320E12005A23EE /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		32150D2222320E12005A23EE /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		32150D2322320E12005A23EE /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		32150D2422320E12005A23EE /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		32150D2522320E12005A23EE /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		32150D2622320E12005A23EE /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		32150D3B22321B48005A23EE /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		324B66C8222F1BC400063B19 /* Guapos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guapos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		324B66CB222F1BC400063B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		324B66CD222F1BC400063B19 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		324B66CF222F1BC400063B19 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		324B66D6222F1BC700063B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		324B66D9222F1BC700063B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		324B66DB222F1BC700063B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EAF1AC223574400017E440 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		32EAF1B022357F850017E440 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		32EAF1FE22358CB00017E440 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = assets/img/icon.png; sourceTree = SOURCE_ROOT; };
+		32EAF20122359CC00017E440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32EAF2052235AAE60017E440 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		9B6D461D76733655CC3B6838 /* Pods_Guapos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guapos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B371FB422B2B957DDCDC5C46 /* Pods-Guapos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guapos.debug.xcconfig"; path = "Target Support Files/Pods-Guapos/Pods-Guapos.debug.xcconfig"; sourceTree = "<group>"; };
+		BBD01EA22F31FEBA7686B756 /* Pods-Guapos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guapos.release.xcconfig"; path = "Target Support Files/Pods-Guapos/Pods-Guapos.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324B66C5222F1BC400063B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD99B15A127727D187107E09 /* Pods_Guapos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29A1A1CA976C8C9E2FF4731C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B371FB422B2B957DDCDC5C46 /* Pods-Guapos.debug.xcconfig */,
+				BBD01EA22F31FEBA7686B756 /* Pods-Guapos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		32150D1022320885005A23EE /* img */ = {
+			isa = PBXGroup;
+			children = (
+				32EAF1FE22358CB00017E440 /* icon.png */,
+				32150D11223208A0005A23EE /* logo.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		32150D1322320E12005A23EE /* roboto */ = {
+			isa = PBXGroup;
+			children = (
+				32150D1422320E12005A23EE /* Roboto-Medium.ttf */,
+				32150D1522320E12005A23EE /* Roboto-Light.ttf */,
+				32150D1622320E12005A23EE /* RobotoCondensed-Bold.ttf */,
+				32150D1722320E12005A23EE /* RobotoCondensed-Light.ttf */,
+				32150D1822320E12005A23EE /* Roboto-Regular.ttf */,
+				32150D1922320E12005A23EE /* Roboto-MediumItalic.ttf */,
+				32150D1A22320E12005A23EE /* RobotoCondensed-Italic.ttf */,
+				32150D1B22320E12005A23EE /* RobotoCondensed-BoldItalic.ttf */,
+				32150D1C22320E12005A23EE /* Apache License.txt */,
+				32150D1D22320E12005A23EE /* RobotoCondensed-LightItalic.ttf */,
+				32150D1E22320E12005A23EE /* Roboto-ThinItalic.ttf */,
+				32150D1F22320E12005A23EE /* RobotoCondensed-Regular.ttf */,
+				32150D2022320E12005A23EE /* Roboto-BoldItalic.ttf */,
+				32150D2122320E12005A23EE /* Roboto-LightItalic.ttf */,
+				32150D2222320E12005A23EE /* Roboto-Italic.ttf */,
+				32150D2322320E12005A23EE /* Roboto-BlackItalic.ttf */,
+				32150D2422320E12005A23EE /* Roboto-Bold.ttf */,
+				32150D2522320E12005A23EE /* Roboto-Thin.ttf */,
+				32150D2622320E12005A23EE /* Roboto-Black.ttf */,
+			);
+			path = roboto;
+			sourceTree = "<group>";
+		};
+		32150D3A22320E1E005A23EE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				32150D1022320885005A23EE /* img */,
+				32150D1322320E12005A23EE /* roboto */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		324B66BF222F1BC400063B19 = {
+			isa = PBXGroup;
+			children = (
+				32150D3A22320E1E005A23EE /* assets */,
+				324B66CA222F1BC400063B19 /* guapos */,
+				324B66C9222F1BC400063B19 /* Products */,
+				29A1A1CA976C8C9E2FF4731C /* Pods */,
+				3E8BB5CD2F7AEBB8AF6FC08A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		324B66C9222F1BC400063B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324B66C8222F1BC400063B19 /* Guapos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324B66CA222F1BC400063B19 /* guapos */ = {
+			isa = PBXGroup;
+			children = (
+				324B66CB222F1BC400063B19 /* AppDelegate.swift */,
+				324B66CD222F1BC400063B19 /* RootViewController.swift */,
+				324B66CF222F1BC400063B19 /* HomeViewController.swift */,
+				32150D3B22321B48005A23EE /* RestaurantsViewController.swift */,
+				32EAF2052235AAE60017E440 /* BookViewController.swift */,
+				32EAF1AC223574400017E440 /* ModelController.swift */,
+				32EAF20022359CC00017E440 /* Main.storyboard */,
+				324B66D6222F1BC700063B19 /* Assets.xcassets */,
+				324B66D8222F1BC700063B19 /* LaunchScreen.storyboard */,
+				324B66DB222F1BC700063B19 /* Info.plist */,
+				32EAF1B022357F850017E440 /* TestViewController.swift */,
+			);
+			path = guapos;
+			sourceTree = "<group>";
+		};
+		3E8BB5CD2F7AEBB8AF6FC08A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D461D76733655CC3B6838 /* Pods_Guapos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324B66C7222F1BC400063B19 /* Guapos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324B66DE222F1BC700063B19 /* Build configuration list for PBXNativeTarget "Guapos" */;
+			buildPhases = (
+				13A1FA3C53A177524070EB9C /* [CP] Check Pods Manifest.lock */,
+				324B66C4222F1BC400063B19 /* Sources */,
+				324B66C5222F1BC400063B19 /* Frameworks */,
+				324B66C6222F1BC400063B19 /* Resources */,
+				BD396009B270962036D344D1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guapos;
+			productName = guapos_swift;
+			productReference = 324B66C8222F1BC400063B19 /* Guapos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324B66C0222F1BC400063B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					res,
+				);
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andrés Fernández";
+				TargetAttributes = {
+					324B66C7222F1BC400063B19 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 324B66C3222F1BC400063B19 /* Build configuration list for PBXProject "Guapos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324B66BF222F1BC400063B19;
+			productRefGroup = 324B66C9222F1BC400063B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324B66C7222F1BC400063B19 /* Guapos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324B66C6222F1BC400063B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32150D3322320E12005A23EE /* Roboto-BoldItalic.ttf in Resources */,
+				32150D3122320E12005A23EE /* Roboto-ThinItalic.ttf in Resources */,
+				32150D2722320E12005A23EE /* Roboto-Medium.ttf in Resources */,
+				32EAF20222359CC00017E440 /* Main.storyboard in Resources */,
+				32150D2F22320E12005A23EE /* Apache License.txt in Resources */,
+				32150D3822320E12005A23EE /* Roboto-Thin.ttf in Resources */,
+				32150D12223208A0005A23EE /* logo.png in Resources */,
+				32150D2E22320E12005A23EE /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				32150D2A22320E12005A23EE /* RobotoCondensed-Light.ttf in Resources */,
+				32150D3622320E12005A23EE /* Roboto-BlackItalic.ttf in Resources */,
+				32150D2822320E12005A23EE /* Roboto-Light.ttf in Resources */,
+				32150D3522320E12005A23EE /* Roboto-Italic.ttf in Resources */,
+				32150D2D22320E12005A23EE /* RobotoCondensed-Italic.ttf in Resources */,
+				324B66DA222F1BC700063B19 /* LaunchScreen.storyboard in Resources */,
+				32150D2922320E12005A23EE /* RobotoCondensed-Bold.ttf in Resources */,
+				32150D2C22320E12005A23EE /* Roboto-MediumItalic.ttf in Resources */,
+				32150D3722320E12005A23EE /* Roboto-Bold.ttf in Resources */,
+				32150D2B22320E12005A23EE /* Roboto-Regular.ttf in Resources */,
+				324B66D7222F1BC700063B19 /* Assets.xcassets in Resources */,
+				32150D3422320E12005A23EE /* Roboto-LightItalic.ttf in Resources */,
+				32150D3022320E12005A23EE /* RobotoCondensed-LightItalic.ttf in Resources */,
+				32EAF1FF22358CB10017E440 /* icon.png in Resources */,
+				32150D3222320E12005A23EE /* RobotoCondensed-Regular.ttf in Resources */,
+				32150D3922320E12005A23EE /* Roboto-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A1FA3C53A177524070EB9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guapos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD396009B270962036D344D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guapos/Pods-Guapos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Guapos/Pods-Guapos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324B66C4222F1BC400063B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324B66CE222F1BC400063B19 /* RootViewController.swift in Sources */,
+				32EAF1AD223574400017E440 /* ModelController.swift in Sources */,
+				324B66D0222F1BC400063B19 /* HomeViewController.swift in Sources */,
+				32EAF2062235AAE60017E440 /* BookViewController.swift in Sources */,
+				32150D3C22321B48005A23EE /* RestaurantsViewController.swift in Sources */,
+				32EAF1B122357F860017E440 /* TestViewController.swift in Sources */,
+				324B66CC222F1BC400063B19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		324B66D8222F1BC700063B19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324B66D9222F1BC700063B19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		32EAF20022359CC00017E440 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32EAF20122359CC00017E440 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		324B66DC222F1BC700063B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		324B66DD222F1BC700063B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		324B66DF222F1BC700063B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B371FB422B2B957DDCDC5C46 /* Pods-Guapos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU4EPYT96D;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = guapos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iseeci.guapos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		324B66E0222F1BC700063B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD01EA22F31FEBA7686B756 /* Pods-Guapos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU4EPYT96D;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = guapos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iseeci.guapos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324B66C3222F1BC400063B19 /* Build configuration list for PBXProject "Guapos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324B66DC222F1BC700063B19 /* Debug */,
+				324B66DD222F1BC700063B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324B66DE222F1BC700063B19 /* Build configuration list for PBXNativeTarget "Guapos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324B66DF222F1BC700063B19 /* Debug */,
+				324B66E0222F1BC700063B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324B66C0222F1BC400063B19 /* Project object */;
+}

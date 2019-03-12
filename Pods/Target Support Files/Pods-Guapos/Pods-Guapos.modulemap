@@ -1,0 +1,6 @@
+framework module Pods_Guapos {
+  umbrella header "Pods-Guapos-umbrella.h"
+
+  export *
+  module * { export * }
+}
